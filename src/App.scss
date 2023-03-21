@@ -1,0 +1,16 @@
+body {
+  padding-bottom: 20px;
+}
+
+
+.table-row {
+  td {
+    .delete-button {
+      visibility: hidden;
+      display: inline-block;
+    }
+  }
+  &:hover .delete-button {
+    visibility: visible;
+  }
+}
